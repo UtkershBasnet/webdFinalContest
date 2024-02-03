@@ -1,0 +1,62 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+}
+.main{
+    height:91vh;
+    display: flex;
+    justify-content:space-evenly;
+}
+.last-btn{
+    display: flex;
+    justify-content: space-between;
+
+}
+.post-btn{
+    color: white;
+    background-color: blue;
+    width: 90px;
+    border: none;
+    border-radius: 1rem;
+}
+.post{
+    height:50vh;
+    border: 1px;
+    
+}
+.main-part-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lowercase{
+    font-size: 2px;
+}
+.edit-btn{
+    width: 1px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.top-text{
+    display: flex;
+}
+.post-box{
+    padding:40px 0px;
+    max-width: 503px;
+}
+
+.like {
+    font-size: 50px;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .like:hover {
+    color: darkblue;
+  }
